@@ -1,0 +1,30 @@
+{
+  "name": "@unerp/service-kit",
+  "version": "0.2.0",
+  "private": false,
+  "description": "Contract kit for out-of-process UniERP extension services: tenant-context token, manifest service types, health endpoint, error envelope",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0",
+    "rimraf": "^6.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
