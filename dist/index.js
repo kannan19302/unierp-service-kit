@@ -291,3 +291,4 @@ class CoreClient {
     }
 }
 exports.CoreClient = CoreClient;
+//# sourceMappingURL=index.js.map
