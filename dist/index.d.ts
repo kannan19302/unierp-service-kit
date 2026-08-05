@@ -175,4 +175,3 @@ export declare class CoreClient {
     /** Create a record in a provisioned schema (requires a *:write* scope in the token). */
     createRecord(schemaSlug: string, data: Record<string, unknown>): Promise<Record<string, unknown>>;
 }
-//# sourceMappingURL=index.d.ts.map
