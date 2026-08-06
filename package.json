@@ -1,6 +1,6 @@
 {
   "name": "@unerp/service-kit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Contract kit for out-of-process UniERP extension services: tenant-context token, manifest service types, health endpoint, error envelope",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
