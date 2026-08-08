@@ -1,5 +1,5 @@
 /**
- * @unerp/service-kit — the contract between the UniERP core gateway and
+ * @kannan19302/service-kit — the contract between the UniERP core gateway and
  * out-of-process extension services (industry apps in their own repos).
  *
  * Core signs a short-lived tenant-context token per proxied request; the
